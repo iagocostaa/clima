@@ -1,23 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<!DOCTYPE html> <!--AVISAR QUE ESTAMOS USANDO A VERSÃO MAIS ATUAL DO HTML-->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IagoCostta - Previsão do Tempo</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+
+        <input class="input-cidade" placeholder="Digite a cidade">
+
+        <button onclick="cliqueiNoBotao()">
+            <img class="lupa" src="https://www.svgrepo.com/show/390590/find-glass-minus-online-search-seo.svg">
+        </button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em São Paulo</h2>
+
+            <p class="temp">28°C</p>
+
+            <img class="icone" src='https://openweathermap.org/img/wn/04n.png'>
+
+            <p class="umidade">Umidade: 70%</p>
+        </div>
+    </div>
+</body>
+<script src="scripts.js"></script>
+
 </html>
